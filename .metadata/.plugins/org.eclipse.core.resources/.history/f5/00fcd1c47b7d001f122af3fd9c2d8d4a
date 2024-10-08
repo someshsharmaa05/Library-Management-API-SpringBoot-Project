@@ -1,0 +1,22 @@
+package com.Byteforce.DTO;
+
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
+
+public class Accountant {
+
+	private int id;
+	private String name;
+	private String fathername;
+	@Id
+	private String email;
+	private long mobileno;
+	private long aaharnumber;
+	private String PAN;
+	private String address;
+	private String nomination;
+	private double salary;
+	@OneToOne
+	private Account account;
+	private Object image;
+}

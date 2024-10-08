@@ -1,0 +1,28 @@
+package com.Byteforce.DAO;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.Byteforce.DTO.Accountant;
+import com.Byteforce.DTO.Cashier;
+import com.Byteforce.Repositry.AccountantRepositry;
+import com.Byteforce.Repositry.CashierRepositry;
+
+public class CashierDao {
+
+	@Autowired
+	CashierRepositry repositry;
+	
+	public Accountant saveAccountantDao(Cashier cashier) {
+		return repositry.save(cashier);
+	}
+	
+	public Accountant findById(int id) {
+		return repositry.findById(id).get();
+	}
+	
+	public List<Accountant> findAccountantByEmailDao(String email) {
+		return repositry.findByEmail(email);
+	}
+}

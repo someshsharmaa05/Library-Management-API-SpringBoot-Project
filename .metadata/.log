@@ -1,0 +1,1047 @@
+!SESSION 2024-09-28 14:31:09.368 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+This is a continuation of log file D:\project\.metadata\.bak_0.log
+Created Time: 2024-09-28 15:15:28.047
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-09-28 15:15:28.047
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-09-28 15:56:09.362
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-09-28 16:01:12.131
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2024-09-28 16:57:48.813
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.io.FileNotFoundException: JAR entry io/swagger/v3/oas/models/security/SecurityScheme.In.html not found in C:\Users\somes\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.7\swagger-models-jakarta-2.2.7-javadoc.jar
+	at org.eclipse.jdt.internal.core.JavaElement.validateAndCache(JavaElement.java:815)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:915)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1106)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1063)
+	at org.eclipse.jdt.core.manipulation.internal.javadoc.CoreJavadocAccess.getHTMLContent(CoreJavadocAccess.java:235)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:49)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: JAR entry io/swagger/v3/oas/models/security/SecurityScheme.In.html not found in C:\Users\somes\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.7\swagger-models-jakarta-2.2.7-javadoc.jar
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:124)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:153)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:866)
+	... 10 more
+Caused by: java.io.FileNotFoundException: JAR entry io/swagger/v3/oas/models/security/SecurityScheme.In.html not found in C:\Users\somes\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.7\swagger-models-jakarta-2.2.7-javadoc.jar
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:124)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:153)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:866)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1106)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1063)
+	at org.eclipse.jdt.core.manipulation.internal.javadoc.CoreJavadocAccess.getHTMLContent(CoreJavadocAccess.java:235)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:49)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1008 2024-09-28 16:57:48.813
+!MESSAGE JAR entry io/swagger/v3/oas/models/security/SecurityScheme.In.html not found in C:\Users\somes\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.7\swagger-models-jakarta-2.2.7-javadoc.jar
+!STACK 0
+java.io.FileNotFoundException: JAR entry io/swagger/v3/oas/models/security/SecurityScheme.In.html not found in C:\Users\somes\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.7\swagger-models-jakarta-2.2.7-javadoc.jar
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:124)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:153)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:866)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1106)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1063)
+	at org.eclipse.jdt.core.manipulation.internal.javadoc.CoreJavadocAccess.getHTMLContent(CoreJavadocAccess.java:235)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:49)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:582)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2024-09-28 17:17:07.247
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): updateCashierService(Accountant) [in CashierService [in [Working copy] CashierService.java [in com.Byteforce.Service [in src/main/java [in E-girvi]]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:605)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:259)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:319)
+	at org.eclipse.jdt.core.manipulation.internal.javadoc.CoreJavadocAccess.getHTMLContentFromSource(CoreJavadocAccess.java:356)
+	at org.eclipse.jdt.core.manipulation.internal.javadoc.CoreJavadocAccess.getHTMLContent(CoreJavadocAccess.java:230)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:49)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:799)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:717)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:63)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-09-28 17:17:07.247
+!MESSAGE updateCashierService(Accountant) [in CashierService [in [Working copy] CashierService.java [in com.Byteforce.Service [in src/main/java [in E-girvi]]]]] does not exist
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-09-28 17:31:54.438
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-09-28 18:11:26.024
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-09-28 18:11:53.880
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-09-28 18:12:17.578
+!MESSAGE Jetty server stopped: Server@29c1ca56{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-09-28 18:12:17.580
+!MESSAGE Jetty server stopped: true
+!SESSION 2024-09-29 16:45:41.031 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-29 16:45:55.153
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-29 16:46:32.803
+!MESSAGE Logback config file: D:\project\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-29 16:46:34.869
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-29 16:46:34.869
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-29 16:46:35.979
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-29 16:46:35.979
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-29 16:46:48.085
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\somes\Downloads\Softwares\sts-4.23.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-cp
+C:\Users\somes\Downloads\Softwares\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\somes\Downloads\Softwares\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\somes\Downloads\Softwares\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/project/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1727608608083
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-29 16:46:48.088
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-29 16:46:48.194
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 20200
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-09-29 16:46:57.294
+!MESSAGE EdgeDataDir: D:\project\.metadata\.plugins\com.genuitec.copilot4eclipse\edgedata
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-29 16:46:57.298
+!MESSAGE Boot project ADDED: E-girvi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-29 16:46:57.299
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-29 16:46:57.301
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-29 16:46:57.302
+!MESSAGE Boot project ADDED: spring-boot-project-library-management-with-junit
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-29 16:46:58.059
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\somes'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-09-29 16:46:58.823
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-09-29 16:50:56.987
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-09-29 16:50:57.005
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleConstructor$HandleNoArgsConstructor failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnType(TransformEclipseAST.java:265)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:107)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11535)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12735)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12965)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12922)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:11306)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1970)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1740)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.findAllTypes(SelectionEngine.java:913)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1114)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:166)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:382)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:375)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5765)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5754)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:63)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-09-29 16:50:57.014
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleConstructor$HandleNoArgsConstructor failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnType(TransformEclipseAST.java:265)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:107)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11535)
+	at org.eclipse.jdt.internal.core.util.CommentRecorderParser.endParse(CommentRecorderParser.java:131)
+	at org.eclipse.jdt.internal.compiler.SourceElementParser.endParse(SourceElementParser.java:827)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12735)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12965)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12922)
+	at org.eclipse.jdt.internal.compiler.SourceElementParser.parseCompilationUnit(SourceElementParser.java:1119)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:186)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1137)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:166)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:92)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:805)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1311)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-09-29 16:50:57.023
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleConstructor$HandleNoArgsConstructor failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnType(TransformEclipseAST.java:265)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:107)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11535)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12735)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12965)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.parse(SelectionParser.java:1910)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12922)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:11306)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.dietParse(SelectionParser.java:1698)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:994)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:166)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:382)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:375)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5765)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5754)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-09-29 16:50:57.283
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleConstructor$HandleNoArgsConstructor failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnType(TransformEclipseAST.java:265)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:107)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11535)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12735)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12965)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12922)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:11306)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1970)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:753)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:591)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:570)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1106)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:166)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:382)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:375)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5765)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5754)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-09-29 16:50:57.412
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleConstructor$HandleNoArgsConstructor failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnType(TransformEclipseAST.java:265)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:107)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11535)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12735)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12965)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.parse(SelectionParser.java:1910)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12922)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:11306)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.dietParse(SelectionParser.java:1698)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:994)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:166)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:382)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:375)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getHoverInfo(JavaSourceHover.java:427)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getHoverInfo2(JavaSourceHover.java:398)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-09-29 16:50:57.584
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleConstructor$HandleNoArgsConstructor failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnType(TransformEclipseAST.java:265)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:107)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11535)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12735)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12965)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12922)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:11306)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1970)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:753)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:591)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:570)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1106)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:166)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:382)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:375)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getHoverInfo(JavaSourceHover.java:427)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getHoverInfo2(JavaSourceHover.java:398)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-09-29 16:50:57.610
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleConstructor$HandleNoArgsConstructor failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnType(TransformEclipseAST.java:265)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:107)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11535)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12735)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12965)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12922)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:11306)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1970)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.searchAllTypeNames(BasicSearchEngine.java:1740)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.findAllTypes(SelectionEngine.java:913)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1114)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:166)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:382)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:375)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getHoverInfo(JavaSourceHover.java:427)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaSourceHover.getHoverInfo2(JavaSourceHover.java:398)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-09-29 16:50:58.015
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleConstructor$HandleNoArgsConstructor failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnType(TransformEclipseAST.java:265)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:107)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11535)
+	at org.eclipse.jdt.internal.core.util.CommentRecorderParser.endParse(CommentRecorderParser.java:131)
+	at org.eclipse.jdt.internal.compiler.SourceElementParser.endParse(SourceElementParser.java:827)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12735)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12965)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12922)
+	at org.eclipse.jdt.internal.compiler.SourceElementParser.parseCompilationUnit(SourceElementParser.java:1119)
+	at org.eclipse.jdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:186)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1137)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:166)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:92)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:805)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1311)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 0 2024-09-29 16:51:02.235
+!MESSAGE Lombok annotation handler class lombok.eclipse.handlers.HandleConstructor$HandleNoArgsConstructor failed
+!STACK 0
+java.lang.NoSuchMethodError: 'java.lang.StringBuffer org.eclipse.jdt.internal.compiler.ast.Expression.print(int, java.lang.StringBuffer)'
+	at lombok.eclipse.handlers.EclipseHandlerUtil.createAnnotation(EclipseHandlerUtil.java:1335)
+	at lombok.eclipse.HandlerLibrary$AnnotationHandlerContainer.handle(HandlerLibrary.java:105)
+	at lombok.eclipse.HandlerLibrary.handleAnnotation(HandlerLibrary.java:237)
+	at lombok.eclipse.TransformEclipseAST$AnnotationVisitor.visitAnnotationOnType(TransformEclipseAST.java:265)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:107)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:74)
+	at lombok.eclipse.EclipseAST.traverseChildren(EclipseAST.java:231)
+	at lombok.eclipse.EclipseNode.traverse(EclipseNode.java:69)
+	at lombok.eclipse.EclipseAST.traverse(EclipseAST.java:224)
+	at lombok.eclipse.TransformEclipseAST.go(TransformEclipseAST.java:222)
+	at lombok.eclipse.TransformEclipseAST.transform(TransformEclipseAST.java:183)
+	at lombok.eclipse.TransformEclipseAST.transform_swapped(TransformEclipseAST.java:107)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at lombok.launch.PatchFixesHider$Util.invokeMethod(PatchFixesHider.java:133)
+	at lombok.launch.PatchFixesHider$Transform.transform_swapped(PatchFixesHider.java:256)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.endParse(Parser.java:11535)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12735)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12965)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.parse(SelectionParser.java:1910)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:12922)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:11306)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.dietParse(SelectionParser.java:1698)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:994)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:166)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:382)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:375)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getJavaElementsAt(AbstractJavaEditorTextHover.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.lambda$0(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5765)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5754)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:713)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:709)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.lambda$0(LSJavaHoverProvider.java:63)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-09-29 16:51:02.438
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-29 16:51:36.935
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:7.0.2.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:7.0.2.Final
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-09-29 17:07:54.130
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-09-29 17:08:12.108
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:08:24.295
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:08:32.143
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:08:42.585
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:08:44.550
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:08:47.433
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:08:53.437
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:09:05.088
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:09:09.445
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:09:10.903
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:09:24.426
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:09:31.771
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:09:36.388
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:09:38.781
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:09:41.193
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:09:54.508
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:10:01.673
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:10:24.632
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:10:26.059
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:10:28.937
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:10:54.709
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:22.882
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:24.848
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:30.699
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:35.074
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:37.963
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:41.519
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:42.658
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:43.789
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:44.921
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:46.375
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:47.635
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:51.937
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:54.848
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:56.921
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:11:58.965
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:00.207
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:02.729
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:04.830
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:12.116
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:14.619
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:17.790
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:21.087
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:22.397
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:24.818
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:33.128
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:44.504
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:46.751
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:54.980
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:12:59.261
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:13:25.095
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:13:29.334
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:13:31.083
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:13:32.686
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:13:41.105
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:13:49.707
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:13:51.591
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:13:54.218
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:13:56.239
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:08.351
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:19.053
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:24.298
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:33.001
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:36.439
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:38.148
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:41.121
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:43.823
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:45.299
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:46.983
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:49.239
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:51.236
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:14:55.315
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:15:00.573
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:15:02.290
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:15:08.989
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:15:12.084
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:15:13.541
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:15:14.690
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:15:17.123
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:15:25.389
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:15:55.504
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:16:08.475
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:16:25.626
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:16:55.750
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:17:25.822
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:17:55.931
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:18:26.060
+!MESSAGE Request checkStatus failed with message: The pending stream has been canceled (caused by: getaddrinfo ENOTFOUND api.github.com)
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-29 17:19:26.957
+!MESSAGE Request checkStatus failed with message: read ECONNRESET
+!SESSION 2024-09-30 08:12:47.985 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-30 08:13:23.799
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-30 08:13:30.004
+!MESSAGE Logback config file: D:\project\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-30 08:13:31.300
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-30 08:13:31.300
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-30 08:13:32.107
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-30 08:13:32.107
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-30 08:13:39.871
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\somes\Downloads\Softwares\sts-4.23.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-cp
+C:\Users\somes\Downloads\Softwares\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\somes\Downloads\Softwares\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\somes\Downloads\Softwares\sts-4.23.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/project/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1727664219870
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-30 08:13:39.872
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-30 08:13:39.892
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12228
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-30 08:13:43.918
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\somes'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-30 08:13:43.949
+!MESSAGE Boot project ADDED: E-girvi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-30 08:13:43.950
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-30 08:13:43.952
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-30 08:13:43.953
+!MESSAGE Boot project ADDED: spring-boot-project-library-management-with-junit
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-09-30 08:13:44.782
+!MESSAGE EdgeDataDir: D:\project\.metadata\.plugins\com.genuitec.copilot4eclipse\edgedata
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-09-30 08:13:46.677
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 2 0 2024-09-30 08:13:47.542
+!MESSAGE Timeout while checking Copilot status
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-30 08:13:51.126
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-30 08:13:52.346
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-09-30 08:13:53.918
+!MESSAGE Persistence: n/a
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-30 08:13:54.111
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-09-30 08:13:54.114
+!MESSAGE Jetty server started: true uri: http://127.0.0.1:52451/chat
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-30 08:13:57.112
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:7.0.2.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:7.0.2.Final
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-30 08:13:58.532
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-09-30 08:13:59.192
+!MESSAGE Workspace labels: java,maven
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-30 08:14:02.019
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse 4 0 2024-09-30 08:14:16.413
+!MESSAGE Request checkStatus failed with message: getaddrinfo ENOTFOUND api.github.com
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-09-30 09:25:33.241
+!MESSAGE Jetty server stopped: Server@8ccc685{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2024-09-30 09:25:33.242
+!MESSAGE Jetty server stopped: true

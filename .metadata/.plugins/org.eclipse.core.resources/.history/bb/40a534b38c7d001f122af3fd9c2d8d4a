@@ -1,0 +1,5 @@
+package com.Byteforce.Repositry;
+
+public interface CashierRepositry {
+
+}

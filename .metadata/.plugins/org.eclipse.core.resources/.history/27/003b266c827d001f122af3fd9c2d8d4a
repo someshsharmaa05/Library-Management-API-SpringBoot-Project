@@ -1,0 +1,43 @@
+package com.Byteforce.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Service;
+
+import com.Byteforce.DAO.AccountantDao;
+import com.Byteforce.DTO.Accountant;
+import com.Byteforce.Responce.ResponseStructure;
+
+import jakarta.servlet.http.HttpSession;
+
+@Service
+public class AccountantService {
+	
+	@Autowired
+	AccountantDao dao;
+	
+	@Autowired
+	HttpSession session;
+	
+	@Autowired
+	ResponseStructure<Accountant> structure;
+	
+	public ResponseStructure<Accountant> saveAccountantService(Accountant accountant) {
+		if (session.getAttribute("propritor") != null) {
+			Accountant accountant2 = dao.saveAccountantDao(accountant);
+			if (accountant2 != null) {
+				structure.setStatus(HttpStatus.OK.value());
+				structure.setMsg("Accountant saved Succefully !!");
+			} else {
+				structure.setStatus(HttpStatus.NOT_ACCEPTABLE.value());
+				structure.setMsg("Accountant not saved Succefully !!");
+			}
+			structure.setData(accountant2);
+		} else {
+			structure.setStatus(HttpStatus.BAD_REQUEST.value());
+			structure.setMsg("Propritor not login,  login first !!");
+			structure.setData(null);
+		}
+		return structure; 
+	}
+}

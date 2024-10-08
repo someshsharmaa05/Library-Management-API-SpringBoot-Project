@@ -1,0 +1,5 @@
+package com.Byteforce.DAO;
+
+public class AccountantDao {
+
+}

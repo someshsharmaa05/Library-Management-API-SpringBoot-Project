@@ -1,0 +1,44 @@
+package com.Byteforce.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Service;
+
+import com.Byteforce.DAO.FirmDao;
+import com.Byteforce.DTO.Firm;
+import com.Byteforce.Responce.ResponseStructure;
+
+import jakarta.servlet.http.HttpSession;
+
+@Service
+public class FirmService {
+
+	@Autowired
+	FirmDao dao ;
+	
+	@Autowired
+	ResponseStructure<Firm> structure;
+	
+	@Autowired
+	HttpSession session;
+	
+	public ResponseStructure<Firm> saveFirmService(Firm firm) {
+		
+		if (session.getAttribute("propritor") != null) {
+			Firm firm2 = dao.saveFirmDao(firm);
+			if (firm2 != null) {
+				structure.setStatus(HttpStatus.OK.value());
+				structure.setMsg("Firm saved Succefully !!");
+			} else {
+				structure.setStatus(HttpStatus.NOT_ACCEPTABLE.value());
+				structure.setMsg("Firm not saved Succefully !!");
+			}
+			structure.setData(firm2);
+		} else {
+			structure.setStatus(HttpStatus.BAD_REQUEST.value());
+			structure.setMsg("Propritor not login,  login first !!");
+			structure.setData(null);
+		}
+		return structure;
+	}
+}

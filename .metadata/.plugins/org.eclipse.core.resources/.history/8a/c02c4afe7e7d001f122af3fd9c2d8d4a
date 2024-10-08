@@ -1,0 +1,18 @@
+package com.Byteforce.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.Byteforce.DAO.AccountantDao;
+import com.Byteforce.DTO.Accountant;
+
+@Service
+public class AccountantService {
+	
+	@Autowired
+	AccountantDao dao;
+	
+	public Accountant saveAccountantService(Accountant accountant) {
+		
+	}
+}

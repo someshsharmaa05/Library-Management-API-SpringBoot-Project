@@ -1,0 +1,22 @@
+package com.Byteforce.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.Byteforce.DTO.Accountant;
+import com.Byteforce.Responce.ResponseStructure;
+import com.Byteforce.Service.AccountantService;
+
+@RestController
+public class AccountantController {
+
+	@Autowired
+	AccountantService service ;
+	
+	@PostMapping(value = "/saveAccountant")
+	public ResponseStructure<Accountant> saveAccouuntantController(@RequestBody Accountant accountant){
+		service.saveAccountantService(accountant);
+	}
+}

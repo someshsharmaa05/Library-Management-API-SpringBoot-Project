@@ -1,0 +1,26 @@
+package com.Byteforce.DTO;
+
+import org.springframework.beans.factory.annotation.Value;
+
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
+
+public class Accountant {
+
+	@Id
+	@Value()
+	private int id;
+	private String name;
+	private String fathername;
+	private String email;
+	private long mobileno;
+	private String password;
+	private long aaharnumber;
+	private String PAN;
+	private String address;
+	private String nomination;
+	private double salary;
+	@OneToOne
+	private Account account;
+	private Object image;
+}

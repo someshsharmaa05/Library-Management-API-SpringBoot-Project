@@ -1,0 +1,28 @@
+package com.Byteforce.DTO;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToOne;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Entity
+@NoArgsConstructor
+public class Manager {
+
+	private int id;
+	private String name;
+	private String fathername;
+	private String email;
+	private long mobileno;
+	private String password;
+	private long aaharnumber;
+	private String PAN;
+	private String address;
+	private String nomination;
+	private double salary;
+	@OneToOne
+	private Account account;
+	private Object image;
+	
+}
